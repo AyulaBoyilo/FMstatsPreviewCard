@@ -129,7 +129,7 @@ body {
   }
 }
 
-@media (min-width: 700px) and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .container {
     height: auto;
     display: block;
@@ -193,60 +193,28 @@ body {
 
 @media (max-width: 699px) {
   .container {
-    height: auto;
-    display: block;
-    margin: 70px auto;
-
     header {
-      flex-direction: column-reverse;
       align-items: center;
-      text-align: center;
       width: 85vw;
       margin: auto;
 
       .text {
-        width: 100%;
         max-width: 400px;
         padding: 40px 20px 20px 20px;
 
-        h1 {
-          font-size: 28px;
-        }
-
-        p {
-          padding: 0 20px 50px 20px;
-          font-size: 15px;
-          line-height: 25px;
-        }
-
         .data-row {
           flex-direction: column;
-          align-items: center;
+
           .data {
             margin-bottom: 30px;
-            h6 {
-              font-size: 10px;
-
-              span {
-                font-size: 18px;
-              }
-            }
           }
         }
       }
-      .wrap {
-        height: 260px;
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-        border-bottom-right-radius: 0px;
-        border-top-left-radius: 5px;
 
+      .wrap {
         img {
-          width: 100%;
-          height: auto;
-          border-bottom-right-radius: 0px;
-          border-top-left-radius: 5px;
+          width: auto;
+          height: 100%;
         }
       }
     }
